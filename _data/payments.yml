@@ -1,71 +1,79 @@
----
 websites:
--     name: Amazon Payments
+    - name: Amazon Payments
       url: https://payments.amazon.com
       twitter: AmazonPayments
       img: amazon.png
-      tfa: false
--     name: Buycraft
+      tfa: No
+
+    - name: Buycraft
       url: http://buycraft.net
       img: buycraft.png
-      tfa: true
-      software: true
-      sms: true
+      tfa: Yes
+      software: Yes
+      sms: Yes
       doc: http://server.buycraft.net/tfa
--     name: GoCardless
+
+    - name: GoCardless
       img: gocardless.png
       url: https://gocardless.com/
       twitter: GoCardless
-      tfa: false
--     name: Google Wallet
+      tfa: No
+
+    - name: Google Wallet
       url: http://www.google.se/wallet/
       img: googlewallet.png
-      tfa: true
-      sms: true
-      phone: true
-      software: true
+      tfa: Yes
+      sms: Yes
+      phone: Yes
+      software: Yes
       doc: http://www.google.com/intl/en-US/landing/2step/features.html
--     name: Litle & Co
+
+    - name: Litle & Co
       img: litleco.png
       twitter: litleco
-      tfa: false
+      tfa: No
       url: https://www.litle.com
--     name: Payoneer
+
+    - name: Payoneer
       url: http://www.payoneer.com/
       twitter: Payoneer
       img: payoneer.png
-      tfa: false
+      tfa: No
       status: https://twitter.com/Payoneer/status/456922100767674369
--     name: PayPal
+
+    - name: PayPal
       url: https://www.paypal.com/
       img: paypal.png
-      tfa: true
-      sms: true
-      software: true
-      hardware: true
+      tfa: Yes
+      sms: Yes
+      software: Yes
+      hardware: Yes
       exceptions:
-            text: 2FA only available in the US and Canada. SMS only available in the
-                  US.
+          text: "2FA only available in the US and Canada. SMS only available in the US."
       doc: https://www.paypal.com/us/cgi-bin?cmd=xpt/Marketing_CommandDriven/securitycenter/PayPalSecurityKey-outside&bn_r=o
--     name: Skrill
+
+    - name: Skrill
       url: https://skrill.com/
       img: skrill.png
-      tfa: true
-      hardware: true
+      tfa: Yes
+      hardware: Yes
       doc: https://help.skrill.com/pkb_sc_article_FAQ?id=kA0D0000000Ci3x&l=en_GB
--     name: Stripe
+
+    - name: Stripe
       img: stripe.png
       url: https://www.stripe.com/
-      tfa: true
-      software: true
+      tfa: Yes
+      software: Yes
       doc: https://stripe.com/blog/two-step-verification
--     name: Square
+
+    - name: Square
       url: https://squareup.com
       twitter: square
       img: squareup.png
-      tfa: false
--     name: Venmo
+      tfa: No
+
+    - name: Venmo
       img: venmo.png
       twitter: venmo
-      tfa: false
+      tfa: No
       url: https://venmo.com

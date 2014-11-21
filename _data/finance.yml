@@ -1,56 +1,65 @@
----
 websites:
--     name: ADP
+    - name: ADP
       url: https://www.adp.com
       twitter: adp
       img: adp.png
-      tfa: false
--     name: Check Inc
+      tfa: No
+
+    - name: Check Inc
       url: https://check.me/
       twitter: checkinc
       img: check.png
-      tfa: false
--     name: FreeAgent
+      tfa: No
+
+    - name: FreeAgent
       url: http://www.freeagent.com
       img: freeagent.png
       twitter: freeagent
-      tfa: false
--     name: HelloWallet
+      tfa: No
+
+    - name: HelloWallet
       url: https://www.hellowallet.com
       twitter: HelloWallet
       img: hellowallet.png
-      tfa: false
--     name: Intuit TurboTax
+      tfa: No
+
+    - name: Intuit TurboTax
       url: https://turbotax.intuit.com/
       twitter: turbotax
       img: turbotax.png
-      tfa: false
--     name: Kiva
+      tfa: No
+
+    - name: Kiva
       url: https://www.kiva.org
       twitter: kiva
       img: kiva.png
-      tfa: false
--     name: Mint
+      tfa: No
+
+    - name: Mint
       url: https://www.mint.com
       twitter: mint
       img: mint.png
-      tfa: false
--     name: Quickbooks Online
+      tfa: No
+
+    - name: Quickbooks Online
       url: http://www.quickbooks.com
       twitter: quickbooks
       img: quickbooks.png
-      tfa: false
--     name: Valic
+      tfa: No
+
+    - name: Valic
       url: https://www.valic.com/
       twitter: VALIC_retire
       img: valic.png
-      tfa: false
--     name: Xero
+      tfa: No
+
+    - name: Xero
       url: https://www.xero.com/
       twitter: Xero
       img: xero.png
--     name: Yodlee Moneycenter
+
+    - name: Yodlee Moneycenter
       url: https://yodleemoneycenter.com/
       twitter: Yodlee
       img: yodlee.png
-      tfa: false
+      tfa: no
