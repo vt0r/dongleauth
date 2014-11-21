@@ -67,7 +67,8 @@ websites:
       img: circle.png
       tfa: Yes
       sms: Yes
-      doc: https://support.circle.com/hc/en-us/sections/200162275-Accessing-your-Account
+      software: Yes
+      doc: https://support.circle.com/hc/en-us/articles/201974154-What-is-two-factor-authentication-2FA-
 
     - name: Coinbase
       url: https://coinbase.com/
@@ -76,6 +77,14 @@ websites:
       sms: Yes
       software: Yes
       doc: http://blog.coinbase.com/post/25677574019/coinbase-now-offers-two-factor-authentication
+
+    - name: CEX.IO
+      url: https://cex.io/
+      img: cex.png
+      tfa: Yes
+      sms: Yes
+      software: Yes
+      doc: https://cex.io/guide#4
 
     - name: Coincafe
       url: https://coincafe.com
