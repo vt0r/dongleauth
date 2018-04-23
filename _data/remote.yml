@@ -26,6 +26,13 @@ websites:
       software: Yes
       doc: https://secure.logmein.com/welcome/webhelp/EN/Pro/LogMeIn/c_common_Security_TwoStep.html
 
+    - name: Linksys Smart Wi-Fi
+      url: https://www.linksyssmartwifi.com
+      twitter: linksyscares
+      facebook: linksys
+      img: linksyssmartwifi.png
+      tfa: No
+
     - name: LogMeIn
       url: https://secure.logmein.com/
       img: logmein.png
@@ -61,6 +68,15 @@ websites:
       otp: Yes
       u2f: No
       status: https://bugzilla.mindrot.org/show_bug.cgi?id=2319
+
+    - name: Parsec
+      url: https://www.parsecgaming.com
+      img: parsec.png
+      tfa: No
+      status: https://twitter.com/ParsecTeam/status/957465838076026880
+      twitter: ParsecTeam
+      facebook: parsecgaming
+      email_address: founders@parsecgaming.com
 
     - name: RealVNC
       url: https://www.realvnc.com

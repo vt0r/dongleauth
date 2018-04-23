@@ -4,8 +4,11 @@ websites:
       img: adobe.png
       tfa: Yes
       sms: Yes
+      software: Yes
       email: Yes
       doc: https://helpx.adobe.com/x-productkb/global/adobe-id-account-change.html#2-step-verification
+      exceptions:
+          text: "To activate 2-Step Verification, you must provide a mobile phone number."
 
     - name: Aerohive Networks
       url: https://www.aerohive.com/
@@ -41,7 +44,7 @@ websites:
       twitter: auspost
 
     - name: Autodesk
-      url: http://www.autodesk.com
+      url: https://www.autodesk.com
       img: autodesk.png
       tfa: Yes
       sms: Yes
@@ -72,13 +75,13 @@ websites:
       facebook: trackemail
 
     - name: BasisCode Compliance
-      url: http://basiscode.com
+      url: https://basiscode.com
       img: basiscode.png
       tfa: Yes
       sms: Yes
       email: Yes
       phone: Yes
-      doc: http://basiscode.com/blog/two-factor-authentication-compliance-software/
+      doc: https://basiscode.com/blog/two-factor-authentication-compliance-software/
 
     - name: BuiltWith
       url: https://builtwith.com
@@ -88,11 +91,21 @@ websites:
       doc: https://kb.builtwith.com/account-management/how-to-enable-2fa-on-builtwith/
 
     - name: CA Technologies
-      url: http://www.ca.com/
+      url: https://www.ca.com/
       img: ca-technologies.png
       tfa: No
       twitter: CAinc
       facebook: CATechnologies
+
+    - name: Chartbeat
+      url: https://chartbeat.com/
+      img: chartbeat.png
+      tfa: Yes
+      sms: Yes
+      software: Yes
+      doc: https://chartbeat.zendesk.com/hc/en-us/articles/209531888-Two-Factor-Authentication
+      exceptions:
+          text: "SMS required for 2FA."
 
     - name: Cisco Meraki
       url: https://meraki.cisco.com/
@@ -111,13 +124,13 @@ websites:
       twitter: clickworker_com
 
     - name: Cloudinary
-      url: http://cloudinary.com
+      url: https://cloudinary.com
       img: cloudinary.png
       tfa: Yes
       software: Yes
 
     - name: CommuterBenefits
-      url: http://commuterbenefits.com/
+      url: https://commuterbenefits.com/
       img: commuterbenefits.png
       tfa: No
       twitter: CommuterBenefit
@@ -144,7 +157,7 @@ websites:
       twitter: CrowdFlower
 
     - name: Delicious
-      url: http://del.icio.us/
+      url: https://del.icio.us/
       img: delicious.png
       twitter: Delicious
       tfa: No
@@ -280,7 +293,7 @@ websites:
       tfa: No
 
     - name: karriere.at
-      url: http://www.karriere.at
+      url: https://www.karriere.at
       img: karriereat.png
       tfa: No
       twitter: karriere_at
@@ -311,6 +324,15 @@ websites:
       tfa: No
       twitter: Liftopia
       facebook: liftopia
+
+    - name: MathWorks
+      url: https://www.mathworks.com/
+      img: mathworks.png
+      tfa: Yes
+      sms: Yes
+      email: Yes
+      software: Yes
+      doc: https://www.mathworks.com/mw_account/two_step_verification/frequently-asked-questions.html
 
     - name: Linux PAM
       url: http://www.linux-pam.org/
@@ -346,7 +368,7 @@ websites:
       facebook: monster
 
     - name: Office 365
-      url: http://office.microsoft.com/en-us/business/
+      url: https://office.microsoft.com/en-us/business/
       img: office365.png
       tfa: Yes
       software: Yes
@@ -404,6 +426,12 @@ websites:
       img: pocket.png
       tfa: No
 
+    - name: Postmates
+      url: https://postmates.com
+      twitter: postmates
+      img: postmates.png
+      tfa: No
+
     - name: Pozible
       url: https://www.pozible.com
       img: pozible.png
@@ -456,12 +484,13 @@ websites:
       facebook: spare5app
       email_address: feedback@spare5.com
 
-    - name: StartJOIN
-      url: https://www.startjoin.com/
-      img: startjoin.png
+    - name: Ubiquiti Networks
+      url: https://www.ubnt.com
+      img: ubiquiti.png
       tfa: Yes
       software: Yes
-
+      doc: https://help.ubnt.com/hc/en-us/articles/115012986607-How-to-Enable-Two-Factor-Authentication
+      
     - name: Ulule
       url: https://www.ulule.com/
       twitter: ulule
@@ -500,13 +529,6 @@ websites:
       exceptions:
           text: "Two factor authentication unavailable for 'End User' access, which is read-only."
 
-    - name: Webmin
-      url: http://www.webmin.com/
-      img: webmin.png
-      tfa: Yes
-      software: Yes
-      doc: http://doxfer.webmin.com/Webmin/Enhanced_Authentication
-
     - name: Wikia
       url: https://www.wikia.com/
       twitter: wikia
@@ -537,7 +559,7 @@ websites:
       doc: https://docs.yclas.com/2-step-authentication/
 
     - name: Zendesk
-      url: http://www.zendesk.com
+      url: https://www.zendesk.com
       img: zendesk.png
       tfa: Yes
       sms: Yes

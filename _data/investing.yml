@@ -65,7 +65,7 @@ websites:
       lang: de
 
     - name: HealthEquity
-      url: http://www.healthequity.com/
+      url: https://www.healthequity.com/
       twitter: healthequity
       img: healthequity.png
       tfa: No
@@ -87,7 +87,7 @@ websites:
       tfa: No
 
     - name: Manulife
-      url: http://www.manulife.ca
+      url: https://www.manulife.ca
       twitter: Manulife
       img: manulife.png
       tfa: No
@@ -121,7 +121,7 @@ websites:
       twitter: OptionsHouse
 
     - name: OptionsXpress
-      url: http://www.optionsxpress.com/
+      url: https://www.optionsxpress.com/
       twitter: optionsXpress
       img: optionsxpress.png
       tfa: No
@@ -148,7 +148,7 @@ websites:
       twitter: Raizers
 
     - name: RBC Direct Investing
-      url: http://www.rbcdirectinvesting.com
+      url: https://www.rbcdirectinvesting.com
       twitter: RBC
       img: rbc.png
       tfa: No
@@ -158,6 +158,7 @@ websites:
       img: robinhood.png
       tfa: Yes
       sms: Yes
+      software: Yes
       doc: https://support.robinhood.com/hc/en-us/articles/211546986-Two-Factor-Authentication
 
     - name: Scottrade
@@ -210,7 +211,7 @@ websites:
       sms: Yes
       phone: Yes
       hardware: Yes
-      doc: https://personal.vanguard.com/us/insights/article/security-codes-112015
+      doc: https://investornews.vanguard/sign-up-for-these-3-security-features/
 
     - name: Wealthfront
       url: https://www.wealthfront.com/

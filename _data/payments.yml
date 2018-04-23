@@ -18,7 +18,7 @@ websites:
       doc: https://articles.braintreepayments.com/reference/security/two-factor-authentication
 
     - name: Buycraft
-      url: http://buycraft.net
+      url: https://buycraft.net
       img: buycraft.png
       tfa: Yes
       software: Yes
@@ -27,7 +27,7 @@ websites:
       sms: Yes
       exceptions:
           text: "SMS-capable phone required."
-      doc: http://help.buycraft.net/article/83-two-factor-authentication
+      doc: https://help.buycraft.net/article/83-two-factor-authentication
 
     - name: Dwolla
       url: https://www.dwolla.com
@@ -51,7 +51,7 @@ websites:
       tfa: No
 
     - name: Google Wallet
-      url: http://www.google.se/wallet/
+      url: https://www.google.se/wallet/
       img: googlewallet.png
       tfa: Yes
       sms: Yes
@@ -90,7 +90,7 @@ websites:
       doc: https://payeer.com/en/faq/
 
     - name: Payoneer
-      url: http://www.payoneer.com/
+      url: https://www.payoneer.com/
       twitter: Payoneer
       img: payoneer.png
       tfa: No
