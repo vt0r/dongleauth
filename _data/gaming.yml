@@ -28,6 +28,7 @@ websites:
       sms: Yes
       software: Yes
       hardware: Yes
+      otp: Yes
       doc: https://us.battle.net/support/en/article/Blizzard-Authenticator
 
     - name: Curse
@@ -51,6 +52,8 @@ websites:
       email: Yes
       sms: Yes
       software: Yes
+      hardware: Yes
+      otp: Yes
       doc: https://help.ea.com/en-us/help/account/origin-login-verification-information/
 
     - name: Enjin
@@ -131,6 +134,8 @@ websites:
       img: gree.png
       tfa: Yes
       software: Yes
+      hardware: Yes
+      otp: Yes
       doc: /notes/gree/
 
     - name: Guild Wars 2
@@ -141,6 +146,8 @@ websites:
       email: Yes
       phone: Yes
       software: Yes
+      hardware: Yes
+      otp: Yes
       doc: https://help.guildwars2.com/hc/en-us/articles/230672927-Securing-Your-Account-With-Authentication
 
     - name: Humble Bundle
